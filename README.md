@@ -17,4 +17,4 @@ To compress to a tar.xz file, you can use the command `tar -cJf addon.tar.xz add
   - postuninstall.sh: Runs at the end of the uninstall
 
 ## Support
-[MMT Extended XDA Thread](https://forum.xda-developers.com/apps/magisk/MMT-Extended)
+[MMT Extended XDA Thread](https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819)
