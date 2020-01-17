@@ -11,10 +11,8 @@ To compress to a tar.xz file, you can use the command `tar -cJf addon.tar.xz add
 
 - You can create your own addons too. Scripts in root of your addon folder with these names will be run automatically at specified times:
   - main.sh: Runs before pretty much everything (right before custom is run but after variables are set). Good for settings variables and functions if they'll be needed across multiple of the following scripts
-  - preinstall.sh: Runs at the very beginning of the install - before anything else is installed
-  - install.sh: Runs after main_install.sh script is run but before files in system are copied
-  - uninstall.sh: Runs at the very beginning of the uninstall - before anything else is uninstalled
-  - postuninstall.sh: Runs at the end of the uninstall
+  - preinstall.sh: Runs at the very beginning of the install - before common/install.sh is run
+  - install.sh: Runs immediately after common/install.sh
 
 ## Support
 [MMT Extended XDA Thread](https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819)
