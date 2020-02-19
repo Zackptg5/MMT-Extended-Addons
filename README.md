@@ -2,6 +2,7 @@
 Repository of Addons for [MMT Extended](https://github.com/Zackptg5/MMT-Extended).
 
 ## Usage
+- Place target addon folder to common/addon (ex: common/addon/External-Tools)
 - Read the README in each repo addon folder to understand its purpose
 - You can delete the folders of the addons you don't need
 - Don't delete or modify anything in the addon folder unless the readme states otherwise
