@@ -1,7 +1,6 @@
 # Volume Key Selector - Addon that allows the use of the volume keys to select option in the installer
 
 ## Instructions:
-* If you only want vol keys to run during install or uninstall, rename the main.sh file to preinstall.sh or uninstall.sh respectively
 * Use $VKSEL variable whenever you want to call the volume key selection function. The function returns true if user selected vol up and false if vol down
 Ex: if $VKSEL; then
       echo "true"
