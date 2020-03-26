@@ -20,7 +20,8 @@ script=$ap/script;
 # set up extracted files and directories
 rm -f $patch/placeholder $script/placeholder
 chmod -R 755 $ap/tools/$ARCH32 $script $ap/*.sh;
-export PATH=$ap/tools/$ARCH32:$PATH
+alias zip=$ap/tools/$ARCH32/zip
+alias zipalign=$ap/tools/$ARCH32/zipalign
 
 ui_print " ";
 ui_print "- Running APK Patcher Lite by djb77 @ xda-developers-";

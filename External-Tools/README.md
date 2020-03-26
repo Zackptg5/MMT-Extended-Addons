@@ -2,7 +2,7 @@
 
 ## Instructions:
 * Place arm/arm64/x86/x64 compiled binaries into their respective folders inside tools directory and they will be loaded/added to path automatically so you can call them like any other binary (no need to specify path)
-* Place other cpu architecture independent tools into the other folder and MMT-Ex will load them/add them to path automatically so you can call them like any other binary (no need to specify path)
+* Place other cpu architecture independent tools into the other folder and MMT-Ex will load them/alias them automatically so you can call them like any other binary (no need to specify path)
 
 ## Included Binaries/Credits:
 * sesearch by [xmikos @Github ](https://github.com/xmikos/setools-android)
