@@ -7,8 +7,7 @@ Ex: if $VKSEL; then
     else
       echo "false"
     fi
-* If you want to use the bixby button on samsung galaxy devices, [check out this post here](https://forum.xda-developers.com/showpost.php?p=77908805&postcount=16) and modify the main.sh functions accordingly
-* If a user knows their device isn't compatible, they can skip this completely by adding "novk" to the zipname so make sure you have defaults set in the event this happens (you can use something like [ -z $VKSEL ])
+* If you want to use the bixby button on samsung galaxy devices, [check out this post here](https://forum.xda-developers.com/showpost.php?p=77908805&postcount=16) and modify the install.sh functions accordingly
 
 ## Notes:
 * Each volume key selector method will timeout after 3 seconds in the event of incompatibility or error
